@@ -1,0 +1,119 @@
+/* BACKGROUND COLOR OF SIDE BAR */
+#sideNav {
+    background-color: #004d99 !important; /* Forces this style to take precedence */
+}
+
+#sideNav .navbar-nav .nav-link {
+    color: #ffffff; /* White text */
+}
+
+#sideNav .navbar-nav .nav-link:hover {
+    color: #cccccc; /* Light grey text on hover */
+}
+
+#sideNav .navbar-toggler-icon {
+    background-image: url('data:image/svg+xml;charset=UTF8,%3Csvg viewBox=\'0 0 30 30\' xmlns=\'http://www.w3.org/2000/svg\'%3E%3Cpath stroke=\'rgba(255, 255, 255, 0.5)\' stroke-width=\'2\' stroke-linecap=\'round\' stroke-miterlimit=\'10\' d=\'M4 7h22M4 15h22M4 23h22\'/%3E%3C/svg%3E');
+}
+
+#sideNav .navbar-toggler {
+    border-color: #004d99; /* Match the navbar color */
+}
+
+
+/* COLOR OF LAST NAME ON HOME PAGE */
+.text-primary {
+    color: #4a90e0 !important;
+}
+
+/* BACK TO HOME DESIGN ON SCRATCH.HTML*/
+a.back-to-home {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: #007bff!important;
+    text-decoration: none!important;
+    padding: 8px!important;
+    background-color: #f8f9fa!important;
+    border-radius: 5px !important;
+}
+
+a.back-to-home:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+
+.back-to-home {
+    padding: 10px 20px; /* Top and bottom padding of 10px, left and right padding of 20px */
+    margin: 20px 20px;
+    background: #f0f0f0; /* Optional: adds a background color for better visibility */
+    text-decoration: none; /* Removes underline from link */
+    color: #333; /* Sets text color */
+    border-radius: 5px; /* Optional: rounds the corners of the link for a smoother look */
+}
+
+.volunteer-title {
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #847b7b
+}
+
+.youtube-title {
+    font-size: 24px;
+    font-weight: bold
+    text-transform: uppercase;    
+    color: #007bff;
+}
+
+.scratch-title{
+    font-size: 50px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #847b7b
+}
+
+.scratch-content{
+        font-size: 20px!important;
+        display: flex;
+        align-items: center;
+        padding-left: 1rem;
+        padding-right: 200px;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        max-width: 75rem;
+}
+
+.travel-list{
+    font-size: 18px!important;
+    color: rgb(70, 126, 230);
+    padding-left: 50px;
+    padding-right: 200px;
+}
+
+.scratch-pictures-text{
+    font-size: 20px!important;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 200px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    max-width: 75rem;
+}
+
+.anchor-box {
+    border: 2px solid #e7e7e7;
+    font-weight: bold;
+    padding: 15px;
+    background-color: #e7e7e7;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.2);
+    width: fit-content;
+    position: fixed; 
+    bottom: 40px; 
+    right: 50px; 
+    text-decoration: none; 
+    color: #007BFF; 
+    cursor: pointer;">Scroll to Top</a>
+  }
